@@ -1,0 +1,551 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Quotation - JIMCO EXIM AND TRADE PVT LTD</title>
+
+<style>
+    * {
+        box-sizing: border-box;
+    }
+
+    body {
+        margin: 0;
+        padding: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        color: #555;
+        background: #fff;
+    }
+
+    .invoice {
+        max-width: 1000px;
+        margin: auto;
+        min-height: 1400px;
+        position: relative;
+    }
+
+    /* HEADER */
+    .header {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-start;
+        padding-bottom: 70px;
+        border-bottom: 1px solid #ddd;
+    }
+
+    .logo {
+        width: 115px;
+    }
+
+    .company-details {
+        text-align: right;
+        line-height: 1.45;
+        font-size: 16px;
+        color: #555;
+    }
+
+    /* CUSTOMER */
+    .customer {
+        margin-top: 80px;
+        margin-left: 54%;
+        line-height: 1.45;
+        font-size: 16px;
+    }
+
+    .customer strong {
+        font-weight: normal;
+        font-size: 17px;
+    }
+
+    /* TITLE */
+    .invoice-title {
+        margin-top: 35px;
+        color: #79a968;
+        font-size: 34px;
+        font-weight: normal;
+    }
+
+    /* ORDER INFO */
+    .order-info {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        margin-bottom: 35px;
+        font-size: 16px;
+    }
+
+    .label {
+        color: #a98787;
+        font-weight: bold;
+        margin-bottom: 5px;
+    }
+
+    /* TABLE */
+    table {
+        width: 100%;
+        border-collapse: collapse;
+    }
+
+    .items-table th {
+        border: 1px solid #444;
+        padding: 9px 7px;
+        color: #9a8989;
+        font-size: 16px;
+        text-align: center;
+        font-weight: normal;
+    }
+
+    .items-table td {
+        border: 1px solid #444;
+        padding: 10px 7px;
+        vertical-align: top;
+        font-size: 16px;
+    }
+
+    .description {
+        width: 40%;
+        line-height: 1.7;
+    }
+
+    .image-col {
+        width: 9%;
+        text-align: center;
+    }
+
+    .image-col img {
+        max-width: 65px;
+        max-height: 100px;
+        object-fit: contain;
+        display: block;
+        margin: 4px auto;
+    }
+
+    .quantity {
+        width: 13%;
+        text-align: right;
+    }
+
+    .unit-price {
+        width: 14%;
+        text-align: right;
+    }
+
+    .taxes {
+        width: 11%;
+        text-align: center;
+    }
+
+    .amount {
+        width: 13%;
+        text-align: right;
+        background: #eee;
+    }
+
+    .hsn {
+        font-weight: bold;
+        margin-left: 20px;
+    }
+
+    /* SUMMARY */
+    .summary-wrapper {
+        display: flex;
+        justify-content: flex-end;
+        margin-top: 15px;
+    }
+
+    .summary {
+        width: 48%;
+        border-collapse: collapse;
+    }
+
+    .summary td {
+        border: 1px solid #777;
+        padding: 8px;
+        font-size: 16px;
+    }
+
+    .summary .label-cell {
+        color: #75a66b;
+        font-weight: bold;
+    }
+
+    .summary .value {
+        text-align: right;
+        background: #eee;
+    }
+
+    .summary .total td {
+        background: #7eb36c;
+        color: white;
+        font-weight: bold;
+        font-size: 17px;
+    }
+
+    /* BOTTOM SECTION */
+    .bottom {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 35px;
+        line-height: 1.8;
+        font-size: 16px;
+    }
+
+    .terms {
+        width: 48%;
+    }
+
+    .bank {
+        width: 45%;
+    }
+
+    .section-title {
+        font-weight: bold;
+        color: #555;
+        font-size: 17px;
+        margin-bottom: 8px;
+    }
+
+    /* FOOTER */
+    .footer {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 100%;
+        border-top: 4px solid #111;
+        padding-top: 8px;
+        text-align: center;
+        font-size: 15px;
+        color: #555;
+    }
+
+    .footer a {
+        color: #3887a7;
+        text-decoration: none;
+    }
+
+    .page {
+        margin-top: 5px;
+    }
+
+    /* PRINT */
+    @media print {
+        body {
+            padding: 0;
+        }
+
+        .invoice {
+            width: 100%;
+            min-height: 100vh;
+        }
+
+        @page {
+            size: A4;
+            margin: 10mm;
+        }
+    }
+
+    /* MOBILE */
+    @media (max-width: 700px) {
+
+        body {
+            padding: 10px;
+        }
+
+        .header {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .company-details {
+            text-align: left;
+        }
+
+        .customer {
+            margin-left: 0;
+            margin-top: 40px;
+        }
+
+        .invoice-title {
+            font-size: 26px;
+        }
+
+        .order-info {
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .items-table {
+            font-size: 12px;
+        }
+
+        .items-table th,
+        .items-table td {
+            font-size: 12px;
+            padding: 5px;
+        }
+
+        .bottom {
+            flex-direction: column;
+            gap: 30px;
+        }
+
+        .terms,
+        .bank {
+            width: 100%;
+        }
+
+        .summary {
+            width: 100%;
+        }
+
+        .invoice {
+            min-height: auto;
+            padding-bottom: 80px;
+        }
+
+        .footer {
+            position: relative;
+            margin-top: 50px;
+        }
+    }
+</style>
+</head>
+
+<body>
+
+<div class="invoice">
+
+    <!-- HEADER -->
+    <div class="header">
+
+        <div>
+            <!-- Replace with your actual logo -->
+            <img src="/static/user/img/jimco.jpeg" width="117" >
+        </div>
+
+        <div class="company-details">
+            <strong>JIMCO EXIM AND TRADE PVT LTD</strong><br>
+            Oasis Tower, Chettichira Junction, SCB Road<br>
+            Kadaravandram, Cochin - 20<br>
+            Ph: 9446 544 355, 8129244177<br>
+            E-mail: jimcoexim@yahoo.com
+        </div>
+
+    </div>
+
+
+    <!-- CUSTOMER -->
+    <div class="customer">
+
+        <strong>{{data1.name}}</strong><br>
+        {{data1.name}}<br>
+        {{data1.phonenumber}}<br>
+        GSTIN: 32AACCJ4142P1ZI
+
+    </div>
+
+
+    <!-- TITLE -->
+    <div class="invoice-title">
+        QUOTATION
+    </div>
+
+
+    <!-- ORDER INFO -->
+    <div class="order-info">
+
+        <div>
+            <div class="label">Order Date:</div>
+           {{data2.date}}
+        </div>
+
+        <div>
+            <div class="label">Salesperson:</div>
+            {{data2.name}}
+        </div>
+
+    </div>
+
+
+    <!-- PRODUCTS -->
+    <table class="items-table">
+
+        <thead>
+            <tr>
+                <th ></th>
+                <th class="description">DESCRIPTION</th>
+                <th class="image-col">IMAGE</th>
+
+                <th class="taxes">TAXES</th>
+                <th class="amount">AMOUNT</th>
+            </tr>
+        </thead>
+
+        <tbody>
+{% for i in data %}
+            <!-- PRODUCT 1 -->
+            <tr>
+<td>{{ loop.index }}</td>
+                <td class="description">
+                    {{i['item']}}
+                </td>
+
+                <td class="image-col">
+                    <img src="queue-manager.png"
+                         alt="Queue Manager">
+                </td>
+
+
+
+                <td class="taxes">
+                  {{ i['gst'] }}
+                </td>
+
+                <td class="amount">
+                   {{i ['price']}}
+                </td>
+
+            </tr>
+
+{% endfor %}
+            <!-- PRODUCT 2 -->
+
+        </tbody>
+
+    </table>
+
+
+    <!-- SUMMARY -->
+    <div class="summary-wrapper">
+
+        <table class="summary">
+
+            <tr>
+                <td class="label-cell">
+                    Untaxed Amount
+                </td>
+                <td class="value">
+                    ₹ 3,800.00
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    SGST on ₹ 3,800.00
+                </td>
+                <td class="value">
+                    ₹ 342.00
+                </td>
+            </tr>
+
+            <tr>
+                <td>
+                    CGST on ₹ 3,800.00
+                </td>
+                <td class="value">
+                    ₹ 342.00
+                </td>
+            </tr>
+
+            <tr class="total">
+                <td>
+                    Total
+                </td>
+                <td style="text-align:right;">
+                    ₹ 4,484.00
+                </td>
+            </tr>
+
+        </table>
+
+    </div>
+
+
+    <!-- TERMS + BANK -->
+    <div class="bottom">
+
+        <div class="terms">
+
+            <div class="section-title">
+                Terms &amp; Conditions
+            </div>
+
+            <br>
+
+            1) Payment Terms:<br>
+            2) Price: Indicates the cost of each item.<br>
+            3) Taxes: Extra<br>
+            4) Shipping Cost:<br>
+
+            <br>
+
+            Payment terms: Immediate Payment
+
+        </div>
+
+
+        <div class="bank">
+
+            <div class="section-title">
+                Bank Details:
+            </div>
+
+            NAME : SIXGUARDS SAFETY SOLUTIONS PVT. LTD.(KL)<br>
+            ACCOUNT NUMBER : 027705500467<br>
+            BANK : ICICI Bank<br>
+            IFSC : ICIC0000277<br>
+            BRANCH : KOCHI KADAVANTARA
+
+        </div>
+
+    </div>
+
+
+    <!-- FOOTER -->
+    <div class="footer">
+
+        Phone: +91 8078 088 666
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        E-mail:
+        <a href="mailto:info@sixguards.com">
+            info@sixguards.com
+        </a>
+
+        &nbsp;&nbsp;&nbsp;&nbsp;
+
+        <a href="https://www.sixguards.com" target="_blank">
+            www.sixguards.com
+        </a>
+
+        <div class="page">
+            Page: 1 / 1
+        </div>
+
+    </div>
+
+</div>
+<br>
+<center><a href="path/to/your-file.pdf" download="custom-filename.pdf" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;" >
+    Download PDF
+</a></center>
+
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

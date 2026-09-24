@@ -1,0 +1,180 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
+
+	<title>Quotation Maker</title>
+
+	<!-- Google font -->
+	<link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet">
+
+	<!-- Bootstrap -->
+	<link type="text/css" rel="stylesheet" href="/static/user/css/bootstrap.min.css" />
+
+	<!-- Custom stlylesheet -->
+	<link type="text/css" rel="stylesheet" href="/static/user/css/style.css" />
+
+	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
+	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+	<!--[if lt IE 9]>
+		  <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+		  <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+		<![endif]-->
+
+</head>
+
+<body>
+	<div class="section">
+		<img src="/static/user/img/img.jpg" width="1400">
+		<div class="section-center">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-7 col-md-push-6">
+
+					</div>
+					<div class="col-md-4 col-md-pull-3">
+						<div class="booking-form">
+							<form action="/adding" method="post" enctype="multipart/form-data" >
+
+
+
+
+											<div class="form-group">
+									<span class="form-label">customer name</span>
+									<input class="form-control" name="textfield1" type="text"  value="{{ data.name }}" required>
+								</div>
+								<div class="form-group">
+									<span class="form-label">Enter Address</span>
+									<input class="form-control" name="textfield2" type="text"  value="{{ data.address }}"  required>
+									<!--<input class="form-control" type="text" placeholder="Enter a destination or hotel name">-->
+								</div>
+											<div class="form-group">
+												 <div class="cart-container">
+
+        <!-- 1. Header Block -->
+        <div class="cart-header">
+
+
+        <!-- 1. Header Block -->
+ {% for i in data %}
+
+        <!-- 2. Dynamic Items Container -->
+        <ul class="cart-items-list">
+
+            <!-- Item 1 Example -->
+            <li class="cart-item">
+
+                <div class="item-details">
+                    <h3 class="item-name">{{ i['item'] }}</h3>
+
+                </div>
+
+                <span class="item-price">{{ i['price'] }}</span>
+				<span class="item-price">{{ i['gst'] }}</span>
+				<a href="/delete_item/{{ i['id'] }}"> &times;</a>
+            </li>
+
+				{% endfor %}
+
+
+
+
+
+		</ul></div></div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+								<div class="form-btn">
+									<input type="submit" name="button" id="button" value="Add Items" style="background-color: #000080; color: white; border: none; padding: 10px 20px;" class="form-control"  />
+								</div>
+											</div></form></div></div>
+
+
+
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    <style>
+        * { box-sizing: border-box; font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; margin: 0; padding: 0; }
+        body { background-color: #f4f6f9; display: flex; justify-content: center; align-items: center; min-height: 100vh; padding: 20px; }
+
+        /* Cart Wrapper */
+        .cart-container { background: #ffffff; border-radius: 12px; box-shadow: 0 5px 15px rgba(0,0,0,0.08); width: 100%; max-width: 800px; padding: 30px; }
+
+        /* Header Section */
+        .cart-header { display: flex; justify-content: space-between; align-items: center; border-bottom: 2px solid #f0f2f5; padding-bottom: 15px; margin-bottom: 20px; }
+        .cart-title { font-size: 24px; color: #333; }
+        .clear-cart-btn { background: none; border: none; color: #ff4d4f; cursor: pointer; font-size: 14px; text-decoration: underline; }
+
+        /* Items List Section */
+        .cart-items-list { list-style: none; display: flex; flex-direction: column; gap: 20px; }
+        .cart-item { display: grid; grid-template-columns: 80px 2fr 1fr 1fr auto; align-items: center; gap: 15px; padding-bottom: 20px; border-bottom: 1px solid #f0f2f5; }
+        .item-image { width: 80px; height: 80px; object-fit: cover; border-radius: 8px; background-color: #eaeaea; }
+        .item-details .item-name { font-size: 16px; font-weight: 1600; color: #222; margin-bottom: 4px; }
+        .item-details .item-spec { font-size: 13px; color: #777; }
+
+        /* Quantity Counter */
+        .item-quantity { display: flex; align-items: center; border: 1px solid #d9d9d9; border-radius: 6px; width: fit-content; overflow: hidden; }
+        .qty-btn { background: #f5f5f5; border: none; width: 30px; height: 30px; cursor: pointer; font-weight: bold; }
+        .qty-input { width: 35px; border: none; text-align: center; font-size: 14px; pointer-events: none; }
+
+        .item-price { font-weight: 600; color: #333; text-align: right; }
+        .remove-item-btn { background: none; border: none; color: #999; cursor: pointer; font-size: 18px; padding: 5px; transition: color 0.2s; }
+        .remove-item-btn:hover { color: #ff4d4f; }
+
+        /* Summary & Checkout Section */
+        .cart-summary { margin-top: 25px; padding-top: 20px; border-top: 2px solid #f0f2f5; display: flex; flex-direction: column; align-items: flex-end; gap: 15px; }
+        .summary-row { display: flex; justify-content: space-between; width: 250px; font-size: 15px; color: #555; }
+        .summary-row.total { font-size: 20px; font-weight: 700; color: #111; margin-top: 5px; }
+        .checkout-btn { background: #1677ff; color: #fff; border: none; border-radius: 6px; padding: 12px 30px; font-size: 16px; font-weight: 600; cursor: pointer; width: 250px; transition: background 0.2s; }
+        .checkout-btn:hover { background: #4096ff; }
+    </style>
+
+
+
+    <!-- Main Cart Container -->
+
+
+
+            <!-- Item 2 Example -->
+            <!--<li class="cart-item">-->
+                <!--<img src="https://placeholder.com" alt="Minimalist Watch" class="item-image">-->
+                <!--<div class="item-details">-->
+                    <!--<h3 class="item-name">Minimalist Leather Watch</h3>-->
+                    <!--<p class="item-spec">Size: 40mm</p>-->
+                <!--</div>-->
+                <!--<div class="item-quantity">-->
+                    <!--<button class="qty-btn" aria-label="Decrease quantity">-</button>-->
+                    <!--<input type="text" class="qty-input" value="2" readonly>-->
+                    <!--<button class="qty-btn" aria-label="Increase quantity">+</button>-->
+                <!--</div>-->
+                <!--<span class="item-price">$198.00</span>-->
+                <!--<button class="remove-item-btn" aria-label="Remove item">&times;</button>-->
+            <!--</li>-->
+            <!---->
+        <!--</ul>-->
+
+        <!-- 3. Checkout Summary Block -->
+
+
+</body><!-- This templates was made by Colorlib (https://colorlib.com) -->
+
+</html>

@@ -1,0 +1,346 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotation - JIMCO EXIM AND TRADE PVT LTD</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            background: #fff;
+            margin: 20px;
+            color: #000;
+        }
+
+        .quotation {
+            width: 900px;
+            max-width: 100%;
+            margin: auto;
+            border: 1px solid #000;
+        }
+
+        .header {
+            padding: 10px;
+            border-bottom: 1px solid #000;
+            display: flex;
+            justify-content: space-between;
+            align-items: flex-start;
+        }
+
+        .logo {
+            width: 100px;
+            height: 50px;
+            border: 1px solid #777;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-weight: bold;
+            color: #24539a;
+        }
+
+        .company {
+            text-align: right;
+            font-size: 12px;
+            line-height: 1.4;
+        }
+
+        .company-name {
+            font-size: 17px;
+            font-weight: bold;
+            color: #24539a;
+        }
+
+        .title {
+            text-align: center;
+            font-size: 16px;
+            font-weight: bold;
+            padding: 5px;
+            border-bottom: 1px solid #000;
+        }
+
+        .details {
+            display: grid;
+            grid-template-columns: 50% 50%;
+            border-bottom: 1px solid #000;
+        }
+
+        .details > div {
+            padding: 10px;
+            font-size: 12px;
+            min-height: 100px;
+        }
+
+        .details .right {
+            border-left: 1px solid #000;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            table-layout: fixed;
+        }
+
+        th,
+        td {
+            border: 1px solid #000;
+            padding: 8px 6px;
+            font-size: 12px;
+        }
+
+        th {
+            text-align: center;
+            font-weight: bold;
+        }
+
+        td {
+            vertical-align: middle;
+        }
+
+        .sl {
+            width: 5%;
+            text-align: center;
+        }
+
+        .product {
+            width: 37%;
+            font-weight: bold;
+        }
+
+        .qty {
+            width: 7%;
+            text-align: center;
+        }
+
+        .unit {
+            width: 11%;
+            text-align: right;
+        }
+
+        .subtotal {
+            width: 13%;
+            text-align: right;
+        }
+
+        .gst {
+            width: 7%;
+            text-align: center;
+        }
+
+        .amount {
+            width: 15%;
+            text-align: right;
+        }
+
+        .total-label {
+            text-align: right;
+            font-weight: bold;
+            padding-right: 15px;
+        }
+
+        .total-value {
+            font-weight: bold;
+            text-align: right;
+        }
+
+        .terms {
+            border-top: 1px solid #000;
+            padding: 10px;
+            font-size: 12px;
+        }
+
+        .terms-title {
+            font-weight: bold;
+            text-decoration: underline;
+            margin-bottom: 8px;
+        }
+
+        .bottom {
+            display: flex;
+            justify-content: space-between;
+            margin-top: 10px;
+            line-height: 1.5;
+        }
+
+        .bank {
+            text-align: right;
+        }
+
+        @media print {
+            body {
+                margin: 0;
+            }
+
+            .quotation {
+                width: 100%;
+                border: 1px solid #000;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="quotation">
+
+    <!-- Header -->
+    <div class="header">
+        <div class="logo">
+            <img src="/static/user/img/jimco.jpeg" width="117" >
+        </div>
+
+        <div class="company">
+            <div class="company-name">
+                JIMCO EXIM AND TRADE PVT LTD
+            </div>
+            Oasis Tower, Chettichira Junction, SCB Road<br>
+            Kadaravandram, Cochin - 20<br>
+            Ph: 9446 544 355, 8129244177<br>
+            E-mail: jimcoexim@yahoo.com
+        </div>
+    </div>
+
+    <!-- Title -->
+    <div class="title">
+        QUOTATION
+    </div>
+
+    <!-- Quotation Details -->
+    <div class="details">
+
+        <div>
+            <strong>To</strong><br><br>
+
+            <strong>{{data1.name}}</strong><br>
+           {{data1.name}}<br>
+
+            {{data1.phonenumber}}
+        </div>
+
+        <div class="right">
+            Quotes No: JEM/2026-27/349<br><br>
+            <strong>Date:</strong> {{data2.date}}<br><br>
+            <strong>{{data2.name}}</strong> 8129244177
+        </div>
+
+    </div>
+
+    <!-- Product Table -->
+    <table>
+
+        <thead>
+            <tr>
+                <th class="sl">SL.NO</th>
+                <th class="product">Product Name</th>
+
+                <th class="subtotal">Sub Total</th>
+                <th class="gst">GST</th>
+                <th class="amount">Amount</th>
+            </tr>
+        </thead>
+
+        <tbody>
+{% for i in data %}
+            <tr>
+                <td class="sl">{{ loop.index }}</td>
+                <td class="product">
+                   {{i['item']}}
+                </td>
+
+                <td class="subtotal">2,800.00</td>
+                <td class="gst">{{ i['gst'] }}</td>
+                <td class="amount">{{i ['price']}}</td>
+            </tr>
+{% endfor %}
+
+
+            <!-- Total -->
+            <tr>
+                <td colspan="6" class="total-label">
+                    TOTAL
+                </td>
+                <td class="total-value">
+                    <div class="cart-total">
+    <h3>Total: <span id="total-amount">$0.00</span></h3>
+  </div>
+
+                </td>
+            </tr>
+
+        </tbody>
+    </table>
+
+    <!-- Terms -->
+    <div class="terms">
+
+        <div class="terms-title">
+            Terms And Conditions
+        </div>
+
+        <div>
+            <strong>Price:</strong> Ex-cochin
+        </div>
+
+        <div>
+            <strong>Validity:</strong> 30 days
+        </div>
+
+        <div class="bottom">
+
+            <div>
+                Jimco Exim And Trade Pvt Ltd
+                <br><br>
+                Authorised Signatory
+            </div>
+
+            <div class="bank">
+                <strong>A/C Name:</strong> JIMCO EXIM AND TRADE PVT LTD<br>
+                <strong>Bank Name:</strong> INDUSIND BANK<br>
+                <strong>A/c No:</strong> 25946445535<br>
+                <strong>Branch:</strong> MG ROAD, COCHIN<br>
+                <strong>IFSC Code:</strong> INDB0000010
+            </div>
+
+        </div>
+
+    </div>
+    <a href="path/to/your-file.pdf" download="custom-filename.pdf" style="padding: 10px 20px; background-color: #007bff; color: white; text-decoration: none; border-radius: 5px; font-weight: bold;">
+    Download PDF
+</a>
+
+</div>
+function calculateCartTotal() {
+  let total = 0;
+
+  // 1. Grab all the product rows inside the cart
+  const cartItems = document.querySelectorAll('.cart-item');
+
+  // 2. Loop through each item row
+  cartItems.forEach(item => {
+    // Extract price from the data attribute and convert it to a float number
+    const priceElement = item.querySelector('.product-price');
+    const price = parseFloat(priceElement.getAttribute('data-price'));
+
+    // Extract quantity from the input box
+    const quantityElement = item.querySelector('.product-quantity');
+    const quantity = parseInt(quantityElement.value) || 0;
+
+    // 3. Accumulate into the total sum
+    total += price * quantity;
+  });
+
+  // 4. Update the total text formatted to 2 decimal places
+  document.getElementById('total-amount').innerText = `$${total.toFixed(2)}`;
+}
+
+// 5. Setup Listeners to recalculate whenever quantities change
+document.querySelectorAll('.product-quantity').forEach(input => {
+  input.addEventListener('change', calculateCartTotal);
+  input.addEventListener('keyup', calculateCartTotal); // Handles manual typing
+});
+
+// Run once on page load to set the initial total
+calculateCartTotal();
+
+</body>
+</html>

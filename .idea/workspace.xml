@@ -1,0 +1,1199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="c3e1fab5-894f-4077-92f7-95b166fd6098" name="Default" comment="">
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/login.html" afterPath="$PROJECT_DIR$/templates/index.html" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/templates/user/index.html" afterPath="$PROJECT_DIR$/templates/user/v_index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/quotation_maker.py" afterPath="$PROJECT_DIR$/quotation_maker.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/static/admin/node_modules/upath/upath.d.ts" afterPath="$PROJECT_DIR$/static/admin/node_modules/upath/upath.d.ts" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user/profile.html" afterPath="$PROJECT_DIR$/templates/user/profile.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/user/u_index.html" afterPath="$PROJECT_DIR$/templates/user/u_index.html" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="CoverageDataManager">
+    <SUITE FILE_PATH="coverage/quotation_maker$DBConnection.coverage" NAME="DBConnection Coverage Results" MODIFIED="1788802817240" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/quotation_maker$quotation_maker.coverage" NAME="quotation_maker Coverage Results" MODIFIED="1790219842784" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="hh.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user/hh.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="5236">
+              <caret line="308" column="4" lean-forward="false" selection-start-line="306" selection-start-column="4" selection-end-line="308" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="quotation_maker.py" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/quotation_maker.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="195">
+              <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+              <folding>
+                <element signature="e#0#77#0" expanded="true" />
+                <marker date="1790219842706" expanded="true" signature="550:627" ph="select * fro... admin" />
+                <marker date="1790219842706" expanded="true" signature="1576:1595" ph="select * fro... movie" />
+                <marker date="1790219842706" expanded="true" signature="1868:1887" ph="select * fro... movie" />
+                <marker date="1790219842706" expanded="true" signature="2409:2438" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2464" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2486" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2495" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2496" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2506" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2508" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2409:2567" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="2544:2564" ph="select id fr... add_q" />
+                <marker date="1790219842706" expanded="true" signature="3122:3209" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="3935:3968" ph="insert into add_items... " />
+                <marker date="1790219842706" expanded="true" signature="3935:3984" ph="insert into add_items... " />
+                <marker date="1790219842706" expanded="true" signature="3935:4004" ph="insert into add_items... " />
+                <marker date="1790219842706" expanded="true" signature="3935:4025" ph="insert into add_items... " />
+                <marker date="1790219842706" expanded="true" signature="3935:4044" ph="insert into add_items... " />
+                <marker date="1790219842706" expanded="true" signature="3935:4061" ph="insert into add_q... " />
+                <marker date="1790219842706" expanded="true" signature="4092:4148" ph="insert into master... " />
+                <marker date="1790219842706" expanded="true" signature="4092:4171" ph="insert into master... " />
+                <marker date="1790219842706" expanded="true" signature="4092:4181" ph="insert into master... " />
+                <marker date="1790219842706" expanded="true" signature="4212:4231" ph="select id fr... add_q" />
+                <marker date="1790219842706" expanded="true" signature="4212:4242" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="4212:4251" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="4212:4253" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="4281:4312" ph="select * fro... add_items" />
+                <marker date="1790219842706" expanded="true" signature="4281:4347" ph="select * fro... add_items" />
+                <marker date="1790219842706" expanded="true" signature="4281:4350" ph="select * fro... add_items" />
+                <marker date="1790219842706" expanded="true" signature="4379:4687" ph="select manag... book" />
+                <marker date="1790219842706" expanded="true" signature="4834:5141" ph="select add_q... master" />
+                <marker date="1790219842706" expanded="true" signature="4834:5167" ph="select add_q... master" />
+                <marker date="1790219842706" expanded="true" signature="5246:5265" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="5246:5276" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="5246:5287" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="5731:5778" ph="select * fro... master" />
+                <marker date="1790219842706" expanded="true" signature="5863:5897" ph="select * fro... add_items" />
+                <marker date="1790219842706" expanded="true" signature="5863:5914" ph="select * fro... add_items" />
+                <marker date="1790219842706" expanded="true" signature="6035:6077" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="6103:6134" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6103:6135" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6103:6147" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6103:6149" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6169:6210" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6235:6279" ph="delete from " />
+                <marker date="1790219842706" expanded="true" signature="6307:6614" ph="select add_q... master" />
+                <marker date="1790219842706" expanded="true" signature="6871:7104" ph="select add_q... add_q" />
+                <marker date="1790219842706" expanded="true" signature="7130:7160" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="7130:7171" ph="select * fro... add_q" />
+                <marker date="1790219842706" expanded="true" signature="7196:7276" ph="select * fro... login" />
+                <marker date="1790219842706" expanded="true" signature="7294:7462" ph="update maste... " />
+                <marker date="1790219842706" expanded="true" signature="7294:7494" ph="update maste... " />
+                <marker date="1790219842706" expanded="true" signature="7294:7518" ph="update maste... " />
+                <marker date="1790219842706" expanded="true" signature="7542:7689" ph="select sum(a... book" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="v_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user/v_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-2992">
+              <caret line="115" column="84" lean-forward="false" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="323">
+              <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="u_index.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user/u_index.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-1007">
+              <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="no_records.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user/no_records.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="901">
+              <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+              <folding>
+                <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="book_radio.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/templates/user/book_radio.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="497">
+              <caret line="528" column="4" lean-forward="false" selection-start-line="528" selection-start-column="4" selection-end-line="528" selection-end-column="4" />
+              <folding>
+                <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="e#8632#8637#0" expanded="true" />
+                <element signature="e#9380#9386#0" expanded="true" />
+                <element signature="e#9386#9392#0" expanded="true" />
+                <element signature="e#9392#9398#0" expanded="true" />
+                <element signature="e#9398#9404#0" expanded="true" />
+                <element signature="e#9520#9526#0" expanded="true" />
+                <element signature="e#9526#9532#0" expanded="true" />
+                <element signature="e#9532#9538#0" expanded="true" />
+                <element signature="e#9538#9544#0" expanded="true" />
+                <element signature="n#style#0;n#a#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Python Script" />
+        <option value="CSS File" />
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>home</find>
+      <find>image</find>
+      <find>wel</find>
+      <find>p.g</find>
+      <find>p.</find>
+      <find>mater</find>
+      <find>logo</find>
+      <find>download</find>
+      <find>basic</find>
+      <find>material</find>
+      <find>down</find>
+      <find>bas</find>
+      <find>navbar</find>
+      <find>settings</find>
+      <find>book</find>
+      <find>make your</find>
+      <find>section</find>
+      <find>imag</find>
+      <find>src</find>
+      <find>item-details</find>
+      <find>remove-item-btn</find>
+      <find>cart-container</find>
+      <find>form-group</find>
+      <find>scr</find>
+      <find>insert</find>
+      <find>user/ind</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/login.html" />
+        <option value="$PROJECT_DIR$/DBConnection.py" />
+        <option value="$PROJECT_DIR$/templates/user/user_home.html" />
+        <option value="$PROJECT_DIR$/static/user/style.css" />
+        <option value="$PROJECT_DIR$/templates/login.html" />
+        <option value="$PROJECT_DIR$/templates/user/u_index.html" />
+        <option value="$PROJECT_DIR$/templates/user/profile.html" />
+        <option value="$PROJECT_DIR$/templates/user/gst.html" />
+        <option value="$PROJECT_DIR$/templates/user/add_q.html" />
+        <option value="$PROJECT_DIR$/templates/admin/index.html" />
+        <option value="$PROJECT_DIR$/templates/user/index.html" />
+        <option value="$PROJECT_DIR$/templates/user/view_item.html" />
+        <option value="$PROJECT_DIR$/templates/user/adding.html" />
+        <option value="$PROJECT_DIR$/static/user/adding_index/css/style.css" />
+        <option value="$PROJECT_DIR$/templates/user/add_items.html" />
+        <option value="$PROJECT_DIR$/templates/user/no_records.html" />
+        <option value="$PROJECT_DIR$/templates/user/adding_index.html" />
+        <option value="$PROJECT_DIR$/templates/user/hh.html" />
+        <option value="$PROJECT_DIR$/templates/user/book_radio.html" />
+        <option value="$PROJECT_DIR$/quotation_maker.py" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodeModulesDirectoryManager">
+    <handled-path value="$PROJECT_DIR$/static/admin/node_modules" />
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="x" value="1" />
+    <option name="y" value="1" />
+    <option name="width" value="1364" />
+    <option name="height" value="718" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <flattenPackages />
+      <showMembers />
+      <showModules />
+      <showLibraryContents />
+      <hideEmptyPackages />
+      <abbreviatePackageNames />
+      <autoscrollToSource />
+      <autoscrollFromSource />
+      <sortByType />
+      <manualOrder />
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="templates" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="user" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="quotation_maker" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="static" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\static\user\img" />
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\static\user\adding_index" />
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\templates\user" />
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\templates\admin" />
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\static\user\index" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\templates" />
+      <recent name="C:\Users\athir\PycharmProjects\quotation_maker\template" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="Python.quotation_maker">
+    <configuration default="false" name="quotation_maker" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/quotation_maker.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="false" name="user_home.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quotation_maker/templates/user/user_home.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="add_items.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quotation_maker/templates/user/add_items.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="no_records.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quotation_maker/templates/user/no_records.html">
+      <method />
+    </configuration>
+    <configuration default="false" name="book_radio.html" type="JavascriptDebugType" factoryName="JavaScript Debug" temporary="true" nameIsGenerated="true" uri="http://localhost:63342/quotation_maker/templates/user/book_radio.html">
+      <method />
+    </configuration>
+    <configuration default="true" type="DjangoTestsConfigurationType" factoryName="Django tests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="TARGET" value="" />
+      <option name="SETTINGS_FILE" value="" />
+      <option name="CUSTOM_SETTINGS" value="false" />
+      <option name="USE_OPTIONS" value="false" />
+      <option name="OPTIONS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerJest" factoryName="Jest">
+      <node-interpreter value="project" />
+      <working-dir value="" />
+      <envs />
+      <scope-kind value="ALL" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
+      <config-file value="" />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
+      <method />
+    </configuration>
+    <configuration default="true" type="PyBehaveRunConfigurationType" factoryName="Behave">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PyLettuceRunConfigurationType" factoryName="Lettuce">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="ADDITIONAL_ARGS" value="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="PythonConfigurationType" factoryName="Python">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="Tox" factoryName="Tox">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <module name="quotation_maker" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
+      <node-interpreter>project</node-interpreter>
+      <node-options />
+      <gulpfile />
+      <tasks />
+      <arguments />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.npm" factoryName="npm">
+      <command value="run" />
+      <scripts />
+      <node-interpreter value="project" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Doctests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="" />
+      <option name="CLASS_NAME" value="" />
+      <option name="METHOD_NAME" value="" />
+      <option name="FOLDER_NAME" value="" />
+      <option name="TEST_TYPE" value="TEST_SCRIPT" />
+      <option name="PATTERN" value="" />
+      <option name="USE_PATTERN" value="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="tests" factoryName="Unittests">
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <module name="quotation_maker" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py" />
+      <option name="_new_additionalArguments" value="&quot;&quot;" />
+      <option name="_new_target" value="&quot;.&quot;" />
+      <option name="_new_targetType" value="&quot;PATH&quot;" />
+      <method />
+    </configuration>
+    <list size="5">
+      <item index="0" class="java.lang.String" itemvalue="Python.quotation_maker" />
+      <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.user_home.html" />
+      <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.add_items.html" />
+      <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.no_records.html" />
+      <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.book_radio.html" />
+    </list>
+    <recent_temporary>
+      <list size="5">
+        <item index="0" class="java.lang.String" itemvalue="Python.quotation_maker" />
+        <item index="1" class="java.lang.String" itemvalue="JavaScript Debug.book_radio.html" />
+        <item index="2" class="java.lang.String" itemvalue="JavaScript Debug.no_records.html" />
+        <item index="3" class="java.lang.String" itemvalue="JavaScript Debug.add_items.html" />
+        <item index="4" class="java.lang.String" itemvalue="JavaScript Debug.user_home.html" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="ShelveChangesManager" show_recycled="false">
+    <option name="remove_strategy" value="false" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="c3e1fab5-894f-4077-92f7-95b166fd6098" name="Default" comment="" />
+      <created>1788688303444</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1788688303444</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="1" y="1" width="1364" height="718" extended-state="0" />
+    <editor active="true" />
+    <layout>
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34017095" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.34815952" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32820514" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="processedProjectFiles" value="true" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <default-breakpoints>
+        <breakpoint type="python-exception">
+          <properties notifyOnTerminate="true" exception="BaseException">
+            <option name="notifyOnTerminate" value="true" />
+          </properties>
+        </breakpoint>
+      </default-breakpoints>
+    </breakpoint-manager>
+    <watches-manager />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/quotation_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="986">
+          <caret line="62" column="26" lean-forward="false" selection-start-line="62" selection-start-column="13" selection-end-line="62" selection-end-column="26" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+            <marker date="1790219842706" expanded="true" signature="550:627" ph="select * fro... admin" />
+            <marker date="1790219842706" expanded="true" signature="1576:1595" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="1868:1887" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="2409:2438" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2464" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2486" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2495" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2496" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2506" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2508" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2567" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2544:2564" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="3122:3209" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3968" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3984" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4004" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4025" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4044" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4061" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4148" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4171" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4181" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4212:4231" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4242" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4251" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4253" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4281:4312" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4347" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4350" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4379:4687" ph="select manag... book" />
+            <marker date="1790219842706" expanded="true" signature="4834:5141" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="4834:5167" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="5246:5265" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5276" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5287" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5731:5778" ph="select * fro... master" />
+            <marker date="1790219842706" expanded="true" signature="5863:5897" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="5863:5914" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="6035:6077" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="6103:6134" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6135" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6147" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6149" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6169:6210" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6235:6279" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6307:6614" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="6871:7104" ph="select add_q... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7160" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7171" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7196:7276" ph="select * fro... login" />
+            <marker date="1790219842706" expanded="true" signature="7294:7462" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7494" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7518" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7542:7689" ph="select sum(a... book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/v_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1955">
+          <caret line="115" column="84" lean-forward="false" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/u_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="527">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/other/p.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/auth/lockscreen-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/add_q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="884">
+          <caret line="52" column="74" lean-forward="false" selection-start-line="52" selection-start-column="74" selection-end-line="52" selection-end-column="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="748">
+          <caret line="48" column="54" lean-forward="false" selection-start-line="48" selection-start-column="54" selection-end-line="48" selection-end-column="54" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+            <marker date="1790219842706" expanded="true" signature="550:627" ph="select * fro... admin" />
+            <marker date="1790219842706" expanded="true" signature="1576:1595" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="1868:1887" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="2409:2438" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2464" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2486" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2495" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2496" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2506" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2508" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2567" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2544:2564" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="3122:3209" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3968" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3984" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4004" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4025" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4044" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4061" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4148" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4171" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4181" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4212:4231" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4242" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4251" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4253" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4281:4312" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4347" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4350" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4379:4687" ph="select manag... book" />
+            <marker date="1790219842706" expanded="true" signature="4834:5141" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="4834:5167" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="5246:5265" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5276" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5287" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5731:5778" ph="select * fro... master" />
+            <marker date="1790219842706" expanded="true" signature="5863:5897" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="5863:5914" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="6035:6077" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="6103:6134" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6135" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6147" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6149" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6169:6210" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6235:6279" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6307:6614" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="6871:7104" ph="select add_q... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7160" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7171" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7196:7276" ph="select * fro... login" />
+            <marker date="1790219842706" expanded="true" signature="7294:7462" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7494" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7518" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7542:7689" ph="select sum(a... book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="false" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/login/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/user_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="510">
+          <caret line="30" column="41" lean-forward="false" selection-start-line="30" selection-start-column="41" selection-end-line="30" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="11" column="0" lean-forward="false" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+            <marker date="1790219842706" expanded="true" signature="550:627" ph="select * fro... admin" />
+            <marker date="1790219842706" expanded="true" signature="1576:1595" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="1868:1887" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="2409:2438" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2464" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2486" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2495" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2496" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2506" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2508" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2567" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2544:2564" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="3122:3209" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3968" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3984" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4004" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4025" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4044" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4061" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4148" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4171" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4181" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4212:4231" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4242" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4251" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4253" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4281:4312" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4347" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4350" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4379:4687" ph="select manag... book" />
+            <marker date="1790219842706" expanded="true" signature="4834:5141" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="4834:5167" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="5246:5265" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5276" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5287" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5731:5778" ph="select * fro... master" />
+            <marker date="1790219842706" expanded="true" signature="5863:5897" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="5863:5914" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="6035:6077" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="6103:6134" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6135" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6147" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6149" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6169:6210" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6235:6279" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6307:6614" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="6871:7104" ph="select add_q... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7160" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7171" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7196:7276" ph="select * fro... login" />
+            <marker date="1790219842706" expanded="true" signature="7294:7462" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7494" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7518" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7542:7689" ph="select sum(a... book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/login/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="5" column="109" lean-forward="false" selection-start-line="5" selection-start-column="109" selection-end-line="5" selection-end-column="109" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/login" />
+    <entry file="file://$PROJECT_DIR$/static/login/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/login/images/people.jpg" />
+    <entry file="file://$PROJECT_DIR$/DBConnection.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" lean-forward="false" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/auth/register-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/auth/login-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/auth/lockscreen-bg.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/faces/face2.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/admin/images/faces/face3.jpg" />
+    <entry file="file://$PROJECT_DIR$/static/admin/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1037">
+          <caret line="61" column="0" lean-forward="false" selection-start-line="61" selection-start-column="0" selection-end-line="61" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/other/navbar-cover.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/other/navbar-cover2.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/admin/images/other/p.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/index/assets/images/favicon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/index/assets/images/logo-light-text.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/index/assets/images/logo-light-icon.png">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/user_home.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="289">
+          <caret line="17" column="64" lean-forward="false" selection-start-line="17" selection-start-column="64" selection-end-line="17" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/profile.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="113" column="0" lean-forward="false" selection-start-line="113" selection-start-column="0" selection-end-line="113" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/img/background.jpg">
+      <provider selected="true" editor-type-id="images">
+        <state />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/AppData/Roaming/Python/Python36/site-packages/flask/sessions.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="119">
+          <caret line="78" column="0" lean-forward="false" selection-start-line="78" selection-start-column="0" selection-end-line="78" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/admin/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="119" column="167" lean-forward="false" selection-start-line="119" selection-start-column="167" selection-end-line="119" selection-end-column="167" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/view_item.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="50" column="109" lean-forward="true" selection-start-line="50" selection-start-column="109" selection-end-line="50" selection-end-column="109" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/static/user/adding_index/css/style.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="298">
+          <caret line="8192" column="23" lean-forward="false" selection-start-line="8192" selection-start-column="17" selection-end-line="8192" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/no_records.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="901">
+          <caret line="53" column="51" lean-forward="false" selection-start-line="53" selection-start-column="51" selection-end-line="53" selection-end-column="51" />
+          <folding>
+            <element signature="n#style#0;n#button#0;n#a#0;n#div#0;n#div#0;n#div#1;n#div#0;n#section#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/add_q.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="48" column="16" lean-forward="false" selection-start-line="48" selection-start-column="16" selection-end-line="48" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/adding_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="86" column="44" lean-forward="false" selection-start-line="86" selection-start-column="44" selection-end-line="86" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/add_items.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="95" column="47" lean-forward="true" selection-start-line="95" selection-start-column="22" selection-end-line="95" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/adding.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1088">
+          <caret line="65" column="33" lean-forward="true" selection-start-line="65" selection-start-column="33" selection-end-line="65" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/hh.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5236">
+          <caret line="308" column="4" lean-forward="false" selection-start-line="306" selection-start-column="4" selection-end-line="308" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#a#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/book_radio.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="497">
+          <caret line="528" column="4" lean-forward="false" selection-start-line="528" selection-start-column="4" selection-end-line="528" selection-end-column="4" />
+          <folding>
+            <element signature="n#style#0;n#td#1;n#tr#3;n#table#0;n#div#4;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="e#8632#8637#0" expanded="true" />
+            <element signature="e#9380#9386#0" expanded="true" />
+            <element signature="e#9386#9392#0" expanded="true" />
+            <element signature="e#9392#9398#0" expanded="true" />
+            <element signature="e#9398#9404#0" expanded="true" />
+            <element signature="e#9520#9526#0" expanded="true" />
+            <element signature="e#9526#9532#0" expanded="true" />
+            <element signature="e#9532#9538#0" expanded="true" />
+            <element signature="e#9538#9544#0" expanded="true" />
+            <element signature="n#style#0;n#a#0;n#center#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="47" lean-forward="false" selection-start-line="19" selection-start-column="47" selection-end-line="19" selection-end-column="47" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/u_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1007">
+          <caret line="31" column="19" lean-forward="false" selection-start-line="31" selection-start-column="19" selection-end-line="31" selection-end-column="19" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/templates/user/v_index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2992">
+          <caret line="115" column="84" lean-forward="false" selection-start-line="115" selection-start-column="84" selection-end-line="115" selection-end-column="84" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/quotation_maker.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="32" column="35" lean-forward="true" selection-start-line="32" selection-start-column="35" selection-end-line="32" selection-end-column="35" />
+          <folding>
+            <element signature="e#0#77#0" expanded="true" />
+            <marker date="1790219842706" expanded="true" signature="550:627" ph="select * fro... admin" />
+            <marker date="1790219842706" expanded="true" signature="1576:1595" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="1868:1887" ph="select * fro... movie" />
+            <marker date="1790219842706" expanded="true" signature="2409:2438" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2464" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2486" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2495" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2496" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2506" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2508" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2409:2567" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="2544:2564" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="3122:3209" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3968" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:3984" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4004" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4025" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4044" ph="insert into add_items... " />
+            <marker date="1790219842706" expanded="true" signature="3935:4061" ph="insert into add_q... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4148" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4171" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4092:4181" ph="insert into master... " />
+            <marker date="1790219842706" expanded="true" signature="4212:4231" ph="select id fr... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4242" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4251" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4212:4253" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="4281:4312" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4347" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4281:4350" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="4379:4687" ph="select manag... book" />
+            <marker date="1790219842706" expanded="true" signature="4834:5141" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="4834:5167" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="5246:5265" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5276" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5246:5287" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="5731:5778" ph="select * fro... master" />
+            <marker date="1790219842706" expanded="true" signature="5863:5897" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="5863:5914" ph="select * fro... add_items" />
+            <marker date="1790219842706" expanded="true" signature="6035:6077" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="6103:6134" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6135" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6147" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6103:6149" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6169:6210" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6235:6279" ph="delete from " />
+            <marker date="1790219842706" expanded="true" signature="6307:6614" ph="select add_q... master" />
+            <marker date="1790219842706" expanded="true" signature="6871:7104" ph="select add_q... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7160" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7130:7171" ph="select * fro... add_q" />
+            <marker date="1790219842706" expanded="true" signature="7196:7276" ph="select * fro... login" />
+            <marker date="1790219842706" expanded="true" signature="7294:7462" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7494" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7294:7518" ph="update maste... " />
+            <marker date="1790219842706" expanded="true" signature="7542:7689" ph="select sum(a... book" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+</project>
